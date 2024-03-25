@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<title> RegistrationApplication... </title>
+	</head>
+	<body style="text-align: center; background-color: pink;">
+		<h1> Register Form </h1>
+		<form method="get" action="RegisterServlet" >
+			<label> UserName : </label>
+			<input type="text" name="username" placeholder="enter username" required/>
+			<br> <br>
+			
+			<label> Password : </label>
+			<input type="password" name="password" placeholder="enter your password" required />
+			<br> <br>
+			
+			<label> Moblie : </label>
+			<input type="number" name="moblieno" placeholder="enter your mobile number" required />
+			<br> <br>
+			
+			<label> Email : </label>
+			<input type="email" name="email" placeholder="enter your mailID" required />
+			<br> <br>
+			
+			<label> DateOfBirth : </label>
+			<input type="date" name="dob" placeholder="enter ypur date of birth" required />
+			<br> <br>
+			
+			<label> Gender : </label>
+			<input type="radio" name="gender" value="Male" /> Male
+			<input type="radio" name="gender" value="Female" /> Female
+			<br> <br>
+			
+			<label> Qualification : </label>
+			<input type="checkbox" name="qualification" value="BSC" /> BSC
+			<input type="checkbox" name="qualification" value="MCA" /> MCA
+			<input type="checkbox" name="qualification" value="BTECH" /> BTECH
+			<input type="checkbox" name="qualification" value="MTECH" /> MTECH
+			<br> <br>
+			
+			<label> Country : </label>
+			<select name="country">
+				<option> INDIA </option>
+				<option> CHINA </option>
+				<option> RUSSIA </option>
+				<option> JAPAN </option>
+			</select>
+			<br> <br>
+			
+			<label> Select Languages : </label>
+			<select name="Languages" size="3" multiple >
+				<option > TELUGU </option>
+				<option > HINDI </option>
+				<option > ENGLISH </option>
+				<option > TAMIL </option>
+				<option > MARATHI </option>
+			</select>
+			<br> <br>
+			
+			<label> Comments : </label>
+			<textarea name="comments" rows="5" cols="25" >
+			</textarea>
+			<br> <br>
+			<input type="submit" value="register" />
+		</form>
+	</body>
+</html>

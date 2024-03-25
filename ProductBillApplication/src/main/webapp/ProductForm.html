@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title> ProductForm... </title>
+	</head>
+	
+	<body style="background-color:yellow">
+		<form method="get" action="ProductBillServlet">
+			<label> ProductId </label>
+			<input type="number" name="ProductId" placeholder="Enter the productID" required/>
+			<br> <br>
+			
+			<label> ProductName </label>
+			<input type="text" name="ProductName" placeholder="Enter the productName" required/>
+			<br> <br>
+			
+			<label> ProductPrice </label>
+			<input type="number" name="ProductPrice" placeholder="Enter the price of rpoduct" required/>
+			<br> <br>
+			
+			<label> ProductQuantity </label>
+			<input type="number" name="ProductQuantity" placeholder="Enter the quanitity you need" min="2" max="10" required/>
+			<br> <br>
+			
+			<input type="submit" value="ProductInvoice" />
+			<hr>
+		</form>
+	</body>
+</html>

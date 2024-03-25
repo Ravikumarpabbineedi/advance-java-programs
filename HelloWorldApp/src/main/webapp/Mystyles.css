@@ -1,0 +1,36 @@
+.mydesign{
+	color: blueviolet;
+	background-color: yellow;
+	border: 2px dotted;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 25px;
+	font-style: oblique;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	padding: 10px 20px 25px 30px;
+	margin: 10px 15px 20px 25px ;
+}
+.mypattern{
+	color: rgb(150,254,185);
+	background-color: hsl(250, 50%, 68%);
+	border: 2px solid;
+	text-align: center;
+	text-decoration: dotted;
+	font-size: 20px;
+	font-style: italic;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	padding: 10px 20px 25px 30px;
+	margin: 10px 15px 20px 25px ;
+}
+.design{
+	color: rgb(150,254,185);
+	background-color: hsl(250, 50%, 68%);
+	border: 2px solid;
+	text-align: center;
+	text-decoration: dotted;
+	font-size: 20px;
+	font-style: italic;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	padding: 10px 20px 25px 30px;
+	margin: 10px 15px 20px 25px ;
+}
